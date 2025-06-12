@@ -4,6 +4,11 @@
 
 ![](app.png?raw=true)
 
+### Prerequisites
+
+* Open Jdk Version 17 installed on  windows or linux 
+* JDK_HOME environment  variable correctly set 
+* Apache Ant(TM) version 1.10.13 
 
 
 
@@ -28,7 +33,7 @@ Enjoy
 ### Aims 
 
 * To assist builders in calculating use of matarials 
-*  Works out ratios and what matarils and costing you will  require 
+* Calculates   matarials and costing of those matarials 
 
 
 ### Features 
@@ -37,6 +42,15 @@ Enjoy
 * Updates costs live when inputs change
 * Remembers user data between sessions
 * Exports to both PDF and CSV
+
+###  To recompile  do the  following 
+
+* Change  to your download directory which  should be BuilderCalc in your home area 
+* Open a terminal  in that folder 
+* Run the following commands assuming ant installed 
+* ant compile.  Compiles the project (.class files are placed in the build/classes folder)
+* ant jar.  Compiles the project and builds a JAR ( located in dist/ ) 
+
 
 
 ### Running the Application 
